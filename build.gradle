@@ -25,13 +25,13 @@ buildscript {
     classpath deps.plugins.changelog
 
     // Used for the sample
-//    classpath "com.squareup.sqldelight:gradle-plugin:${versions.sqldelight}"
+    classpath "com.squareup.sqldelight:gradle-plugin:${versions.sqldelight}"
   }
 }
 
 apply plugin: "com.diffplug.gradle.spotless"
 
-apply from: "$rootDir/gradle/updateDependencies.gradle"
+//apply from: "$rootDir/gradle/updateDependencies.gradle"
 apply from: "$rootDir/gradle/dependencies.gradle"
 
 spotless {

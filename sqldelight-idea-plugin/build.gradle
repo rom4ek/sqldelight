@@ -23,7 +23,7 @@ intellij {
     }
   }
   // Uncomment to test against Android Studio
-  // intellij.alternativeIdePath = '/Applications/Android Studio.app'
+   intellij.alternativeIdePath = '/Users/roz/Library/Application Support/JetBrains/Toolbox/apps/AndroidStudio/ch-0/193.6514223/Android Studio.app'
 }
 
 changelog {

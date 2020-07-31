@@ -13,8 +13,8 @@ include ':extensions:rxjava3-extensions'
 include ':runtime'
 
 //Removed until build is split
-//include ':sample:android'
-//include ':sample:common'
+include ':sample:android'
+include ':sample:common'
 
 //Removed because of JS issue
 //include ':sample:web'
